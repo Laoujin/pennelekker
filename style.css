@@ -1,0 +1,201 @@
+html
+{
+	font-family: Verdana, Helvetica, sans-serif;
+}
+
+body
+{ 
+	/*background-image: url('images/mannetje.png');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: left bottom; */
+}
+
+#main
+{
+	width: 100%;
+	height: 525px;
+	margin-top: 50px;
+	text-align: center;
+}
+
+#subMain
+{
+	margin-left: auto;
+	margin-right: auto;
+	width: 942px;
+	text-align: left;
+}
+
+#contentMain
+{
+	border: solid 1px black;
+	background-color: 615a53;
+}
+
+#menu
+{
+	background-color: #a79783;
+	text-align: center;
+	border-bottom: solid 1px black;
+}
+
+#menu a, #menu a:active, #menu a:hover, #menu a:focus
+{
+	font-size= 16px;
+	outline: 0;
+}
+
+.sel
+{
+	/*background-color: #615a53;*/
+	color: white;
+}
+
+#content
+{
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	color: #d8ccbc;
+	font-size: 12px;
+	text-align: justify;
+}
+
+.menuItem
+{
+	text-decoration: none;
+	font-size= 16px;
+	color: #30281f;
+}
+
+#loopImageCell
+{
+	border-right: solid 1px black;
+}
+
+#loopImage
+{
+	display: none;
+}
+
+#bottomInfo
+{
+	background-color: #a79783;		
+	border-left: 1px solid black;
+	border-bottom: 1px solid black;
+	border-right: 1px solid black;
+		/* BOTTOMINFO IN TABEL? UNCOMMENT */
+	font-size: 10pt;
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 3px;
+}
+
+.bottomInfoLink
+{
+	text-decoration: none;
+	color: black;
+}
+
+.bottomInfoLink:hover
+{
+	text-decoration: underline;
+}
+
+ul
+{
+	list-style-image: url('images/icons/pan.png');
+	line-height: 140%;
+}
+
+ul span
+{
+	position: relative;
+	top: -2px;
+	left: 5px;
+}
+
+a
+{
+	color: #d8ccbc;
+	outline: 0;
+}
+
+a:hover
+{
+	text-decoration: none;
+}
+
+.spreuk
+{
+	font-family: MV Boli, Segoe Print;
+	font-size: 16px;
+	text-align: center;
+	
+}
+
+
+
+
+
+.popup
+{
+	position: absolute;
+	display: none;
+	width: 350px;
+	height: 300px;
+	left: 100px;
+	top: 100px;
+	color: black;
+	background-color: #FFFFFF; /*#EBEBEB*/
+	border: 1px solid #000000;
+	z-index: 999999;
+}
+
+.popupClose
+{
+	display: block;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
+
+#waiter
+{
+	display: none;
+	width: 150px;
+	height: 100px;
+	left: 100px;
+	top: 100px;
+	color: black;
+	background-color: #FFFFFF; /*#EBEBEB*/
+	border: 1px solid #000000;
+	text-align: center;
+}
+
+.waiterContent
+{
+	position: absolute;
+	top: 30px;
+	left: 60px;
+}
+
+.popupMaintable
+{
+	border: 1px solid white;
+	background-color: #EBEBEB;
+	color: black;
+	border-collapse: collapse;
+}
+
+.popupMaintable th
+{
+	border: 1px solid white;
+	padding: 5px;
+	background-color: #3D3D3D; /*#69D2E7;*/
+	text-align: center;
+	font-weight: bold;
+	color: #D3D3D3; /*#E67817;*/
+}
