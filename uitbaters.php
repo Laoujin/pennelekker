@@ -11,7 +11,7 @@ Een traiteursdienst en een klein restaurantje later kochten ze een groot leegsta
 Samen staan ze intussen al bijna dertig jaar voor het fornuis en achter de toog in <i>De Pennelekker</i>. 
 Elk hun domein: zo is het mooi verdeeld. 
 Zij kent het klappen van de champagnekurk, hij het kloppen van de garde.
-Al moet het gezegd: zonder haar zou dat dessertbuffet niet zoveel lekkers tellen!
+Al moet het gezegd: zonder haar zou dat dessertbuffet niet zo veel lekkers tellen!
 <?
 	include_once 'include/pagefooter.php';
 ?>

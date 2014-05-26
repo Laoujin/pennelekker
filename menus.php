@@ -3,25 +3,30 @@
 ?>
 <style>
 .small {font-size: 8px}
-a.popupLink {font-size: 16px}
+a.popupLink {font-size: 12px}
 </style>
 
-&nbsp; &nbsp; &nbsp; <a href="javascript: return false;" class=popupLink>degustatiemenu</a>
+<b>Voorbeeldfeestmenu's</b><br><br>
+Enkele voorbeelden van wat wij qua feestmenu's in <i>De Pennelekker</i> kunnen serveren voor uw gasten:
+<br><br>
+
+<a href="downloads/feestmenus_2014.pdf"><img src='images/pdf.gif'></a>
+&nbsp;<a href="downloads/feestmenus_2014.pdf" class=popupLink>feestmenu's</a>
+
 <br>
-&nbsp; &nbsp; &nbsp; <span class='small'>Er staan momenteel geen menu's op de agenda!</span>
+<a href="downloads/feestbuffetten_2014.pdf"><img src='images/pdf.gif'></a>
+&nbsp;<a href="downloads/feestbuffetten_2014.pdf" class=popupLink>feestbuffetten</a>
 
+<br>
+<a href="downloads/afhalingen2014.pdf"><img src='images/pdf.gif'></a>
+&nbsp;<a href="downloads/afhalingen2014.pdf" class=popupLink>afhalingen</a>
 
-<br><br>
-<a href="downloads/feestmenus.pdf"><img src='images/pdf.gif'></a>
-&nbsp;<a href="downloads/feestmenus.pdf" class=popupLink>voorbeeldfeestmenu's</a>
+<br><br><br>
+<b>Degustatiemenu's</b><br><br>
+Op zondagmiddag 8 juni serveren we een vaderdagmenu. <br> 
 
-<br><br>
-<a href="downloads/feestbuffetten.pdf"><img src='images/pdf.gif'></a>
-&nbsp;<a href="downloads/feestbuffetten.pdf" class=popupLink>voorbeeldfeestbuffetten</a>
-
-<br><br>
-<a href="downloads/afhalingen.pdf"><img src='images/pdf.gif'></a>
-&nbsp;<a href="downloads/afhalingen.pdf" class=popupLink>voorbeeldafhalingen</a>
+<a href="downloads/vaderdagmenu_2014.pdf"><img src='images/pdf.gif'></a>
+&nbsp;<a href="downloads/vaderdagmenu_2014.pdf" class=popupLink>Bekijk</a> wat de pot schaft. <br><br>
 
 <?
 	include_once 'include/pagefooter.php';

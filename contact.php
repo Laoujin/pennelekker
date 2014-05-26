@@ -9,7 +9,7 @@
 
 	include_once 'include/pageheader.php';
 ?>
-U wilt een optie nemen voor een bepaalde datum? In onze menukaart neuzen? Vrijblijvend een offerte aanvragen? Samen onze verschillende feestformules overlopen? Of misschien wilt u voor de zekerheid gewoon even komen kijken of het interieur van de zaal niet blijven hangen is in de tijd van het schilderij <i>De boerenbruiloft</i>.
+U wilt een optie nemen voor een bepaalde datum? In onze menukaart neuzen? Vrijblijvend een offerte aanvragen? Samen onze verschillende feestformules overlopen? Of misschien wilt u gewoon even komen kijken of het interieur van de zaal niet blijven hangen is in de tijd van het schilderij <i>De boerenbruiloft</i>.
 <br><br>
 Bel ons even op of stuur ons een mailtje. Wilt u graag langskomen, houd er dan rekening mee dat wij in het weekend druk aan het werk zijn. U maakt dus het best even een afspraak om langs te komen.
 <br><br>
