@@ -1,4 +1,4 @@
-<?
+<?php
 	include_once 'include/pageheader.php';
 ?>
 Een zaal heeft u niet nodig, maar lekker eten wél. 
@@ -16,6 +16,6 @@ Krijgt u zoetebekken op bezoek? U wilt uw gasten extra verwennen? Dan kunt u ook
 We vragen u vriendelijk om afhalingen minstens een week op voorhand te bestellen.
 
 
-<?
+<?php
 	include_once 'include/pagefooter.php';
 ?>

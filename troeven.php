@@ -1,10 +1,10 @@
-<?
+<?php
 	include_once 'include/pageheader.php';
 ?>
 U geeft een feest, maar overweegt nog verschillende opties. Groot gelijk. Om het u iets makkelijker te maken, zetten we onze troeven even op een rij. Zo weet u wat u aan ons hebt.
 <br><br>
 <ul>
-<? if (false) { ?>
+<?php if (false) { ?>
 <li> <span>patron aan het fornuis</span>
 <li> <span>30 jaar ervaring</span>
 <li> <span>flexibele zaalindeling</span>
@@ -15,7 +15,7 @@ U geeft een feest, maar overweegt nog verschillende opties. Groot gelijk. Om het
 <li> <span>airconditioning</span>
 <li> <span>terras en speeltuigen</span>
 <li> <span>biljartspel en air hockey te huur</span>
-<? } else { ?>
+<?php } else { ?>
 <li style="list-style-image: url('images/icons/chef2.png');"> <span>patron aan het fornuis</span>
 <li style="list-style-image: url('images/icons/ervaring.png');"> <span>30 jaar ervaring</span>
 <li style="list-style-image: url('images/icons/wall.png');"> <span>flexibele zaalindeling</span>
@@ -28,8 +28,8 @@ U geeft een feest, maar overweegt nog verschillende opties. Groot gelijk. Om het
 <li style="list-style-image: url('images/icons/hockey.png');"> <span>biljartspel en air hockey te huur</span>
 
 
-<? } ?>
+<?php } ?>
 </ul>
-<?
+<?php
 	include_once 'include/pagefooter.php';
 ?>

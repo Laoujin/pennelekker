@@ -19,6 +19,3 @@
 </div>
 </body>
 </html>
-<?
-	//$db->Close();
-?>

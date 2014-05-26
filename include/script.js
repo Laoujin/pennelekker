@@ -1,14 +1,15 @@
 $(function() {
 	// Scroll effect van het menu
-	var selectedCell = $("#menu td.sel");
-	var firstCell = $("#menu td:first").text();
-	var lastCell = $("#menu td:last").text();
+	var selectedCell = $("#menu td.sel"),
+		firstCell = $("#menu td:first").text(),
+		lastCell = $("#menu td:last").text();
 	
 	$("#menu td").each(function() {
 		var cell = $(this);
 		if (cell.text() != lastCell) cell.css("border-right", "solid 1px #a79783");
 	});
 	
+	// Menu animation
 	$("#menu td").hover(function() {
 		var cell = $(this).css("background-color", "#615a53");
 		if (cell.text() != lastCell) cell.css("border-right", "solid 1px black");

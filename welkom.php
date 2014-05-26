@@ -1,4 +1,4 @@
-<?
+<?php
 	include_once 'include/pageheader.php';
 ?>
 <div class=spreuk>"Moge het iedereen goed gaan
@@ -12,6 +12,6 @@ Misschien heeft u de geruchten gehoord. <i>Ze stoppen d'ermee, daar bij de Penne
 Op zondagmiddag 8 juni serveren we een vaderdagmenu. Kijk even bij <a href=menus.php>menu's</a>.
 
 
-<?
+<?php
 	include_once 'include/pagefooter.php';
 ?>

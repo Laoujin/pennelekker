@@ -1,4 +1,4 @@
-<?
+<?php
 	include_once 'include/pageheader.php';
 ?>
 U heeft iets te vieren? Dan kunt u bij ons terecht met een groep van 10 tot 160 personen.
@@ -18,6 +18,6 @@ Wilt u zelf nog voor extra versiering zorgen? Dat kan.
 <br><br>
 Nog vragen? Neem vrijblijvend contact met ons op.
 
-<?
+<?php
 	include_once 'include/pagefooter.php';
 ?>

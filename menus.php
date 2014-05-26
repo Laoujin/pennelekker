@@ -1,4 +1,4 @@
-<?
+<?php
 	include_once 'include/pageheader.php';
 ?>
 <style>
@@ -28,6 +28,6 @@ Op zondagmiddag 8 juni serveren we een vaderdagmenu. <br>
 <a href="downloads/vaderdagmenu_2014.pdf"><img src='images/pdf.gif'></a>
 &nbsp;<a href="downloads/vaderdagmenu_2014.pdf" class=popupLink>Bekijk</a> wat de pot schaft. <br><br>
 
-<?
+<?php
 	include_once 'include/pagefooter.php';
 ?>

@@ -1,21 +1,15 @@
-<?
-	session_start();
+<?php
 	define("MAIL", "info@pennelekker.be");
 ?>
 <html>
 <head>
 <title>Feestzaal De Pennelekker</title>
 <script language="javascript" type="text/javascript" src="include/jquery.js"></script>
-<script language="javascript" type="text/javascript" src="include/jqueryext.js"></script>
 <script language="javascript" type="text/javascript" src="include/script.js"></script>
 <script language="javascript" type="text/javascript" src="include/jquery.cycle.js"></script>
 <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
-
-<? 
-	include_once 'include/popup.php';
-?>
 
 <div id=main>
 <table width='100%' cellpadding=0 cellspacing=0 border=0 id=subMain>
@@ -29,7 +23,7 @@
 					<td>
 						<table width='100%' cellpadding=0 cellspacing=0 border=0 id=menu height=33>
 							<tr>
-							<?
+							<?php
 							$menuItems = array('welkom', 'uitbaters', 'naam', 'zaal', 'restaurant', 'keuken', 'afhalingen', 'troeven', 'contact', "menu's");
 							$selected = strtolower(basename($_SERVER['PHP_SELF']));
 							$selected = substr($selected, 0, strpos($selected, '.php'));
@@ -54,7 +48,7 @@
 					<td>
 						<table width='100%' cellpadding=0 cellspacing=0 border=0>
 							<tr height=347>
-								<?
+								<?php
 								if (!function_exists("imageStrategy"))
 								{
 									$directory = 'images/'.$selected.'/';

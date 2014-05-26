@@ -1,3 +1,3 @@
-<?
-	include_once 'welkom.php';
+<?php
+	include 'welkom.php';
 ?>

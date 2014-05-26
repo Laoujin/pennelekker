@@ -1,4 +1,4 @@
-<?
+<?php
 	function imageStrategy()
 	{
 		echo "<td width=520 valign=top id=loopImageCell>";
@@ -16,6 +16,6 @@ Bel ons even op of stuur ons een mailtje. Wilt u graag langskomen, houd er dan r
 <div align=center>
 <a target=_blank href="http://maps.google.com/maps?q=restaurant&amp;hl=nl&amp;ie=UTF8&amp;sll=50.867457,4.017992&amp;sspn=0.052977,0.129175&amp;near=Ninoofsesteenweg+22,+9450+Haaltert,+Belgi%C3%AB&amp;geocode=CU0RSlzRmumCFQ4tCAMdXU89AClJ9DQsrLzDRzFspbbgNDEQKQ&amp;vpsrc=0&amp;num=10&amp;t=m&amp;hq=restaurant&amp;hnear=&amp;ll=50.86747,4.018013&amp;spn=0.013245,0.032294&amp;z=14&amp;iwloc=A&amp;cid=5146632773873597586&amp;source=embed">Klik hier om de kaart groter te bekijken.</a>
 </div>
-<?
+<?php
 	include_once 'include/pagefooter.php';
 ?>

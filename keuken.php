@@ -1,4 +1,4 @@
-<?
+<?php
 	include_once 'include/pageheader.php';
 ?>
 In de keuken van <i>De Pennelekker</i> zwaait de patron de plak. 
@@ -10,6 +10,6 @@ Samen met zijn keukenteam verzorgt Guido graag uw receptie, walking dinner, baby
 <br><br>
 We hebben een uitgebreide menukaart waarin u zeker voor elke gang iets naar uw smaak kunt vinden. 
 Zit uw lievelingskostje er toch niet bij? Geen probleem, Guido staat open voor uw suggesties.
-<?
+<?php
 	include_once 'include/pagefooter.php';
 ?>
