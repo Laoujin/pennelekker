@@ -56,7 +56,12 @@
 									{
 										?>
 										<td width=520 valign=top id=loopImageCell>
-										<div id="loopImage" class="cycle-slideshow" data-cycle-speed="3000" data-cycle-random="1" data-cycle-timeout="2000" data-cycle-fx="fade">
+										<div id="loopImage" class="cycle-slideshow" 
+											data-cycle-speed="3000" 
+											data-cycle-random="1" 
+											data-cycle-timeout="2000" 
+											data-cycle-fx="fade"
+											data-cycle-pause-on-hover="true">
 										<div class="cycle-prev"></div>
 										<div class="cycle-next"></div>
 										<?php

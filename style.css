@@ -134,3 +134,17 @@ a:hover
 .cycle-prev { left: 0;  background: url(img/left.png) 50% 50% no-repeat;}
 .cycle-next { right: 0; background: url(img/right.png) 50% 50% no-repeat;}
 .cycle-prev:hover, .cycle-next:hover { opacity: .7; filter: alpha(opacity=70) }
+
+.cycle-paused:after {
+	content: 'Pauze';
+	color: white;
+	background: black;
+	padding: 10px;
+	z-index: 500;
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	border-radius: 10px;
+	opacity: .5;
+	filter: alpha(opacity=50);
+}
