@@ -48,7 +48,6 @@ body
 
 .sel
 {
-	/*background-color: #615a53;*/
 	color: white;
 }
 
@@ -129,70 +128,6 @@ a:hover
 	font-size: 16px;
 	text-align: center;
 	
-}
-
-
-
-
-
-.popup
-{
-	position: absolute;
-	display: none;
-	width: 350px;
-	height: 300px;
-	left: 100px;
-	top: 100px;
-	color: black;
-	background-color: #FFFFFF; /*#EBEBEB*/
-	border: 1px solid #000000;
-	z-index: 999999;
-}
-
-.popupClose
-{
-	display: block;
-  position: absolute;
-  top: 5px;
-  right: 5px;
-}
-
-#waiter
-{
-	display: none;
-	width: 150px;
-	height: 100px;
-	left: 100px;
-	top: 100px;
-	color: black;
-	background-color: #FFFFFF; /*#EBEBEB*/
-	border: 1px solid #000000;
-	text-align: center;
-}
-
-.waiterContent
-{
-	position: absolute;
-	top: 30px;
-	left: 60px;
-}
-
-.popupMaintable
-{
-	border: 1px solid white;
-	background-color: #EBEBEB;
-	color: black;
-	border-collapse: collapse;
-}
-
-.popupMaintable th
-{
-	border: 1px solid white;
-	padding: 5px;
-	background-color: #3D3D3D; /*#69D2E7;*/
-	text-align: center;
-	font-weight: bold;
-	color: #D3D3D3; /*#E67817;*/
 }
 
 .cycle-prev, .cycle-next { position: absolute; top: 0; width: 30%; opacity: 0; filter: alpha(opacity=0); z-index: 800; height: 100%; cursor: pointer; }

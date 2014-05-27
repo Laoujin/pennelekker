@@ -4,10 +4,10 @@
 <html>
 <head>
 <title>Feestzaal De Pennelekker</title>
+<link href="style.css" rel="stylesheet" type="text/css" />
 <script language="javascript" type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
 <script language="javascript" type="text/javascript" src="include/jquery.cycle.js"></script>
 <script language="javascript" type="text/javascript" src="include/script.js"></script>
-<link href="style.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
 
