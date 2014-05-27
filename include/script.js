@@ -24,12 +24,12 @@ $(function() {
 	});
 		
 	//  Looping images
-	if ($("#loopImage").size() == 1) {
-		$("#loopImage").fadeIn().cycle({
-			fx: 'fade',
-			random: 1,
-			timeout: 2000,
-			speed: 3000
-		});
-	}
+	// if ($("#loopImage").size() == 1) {
+		// $("#loopImage").cycle({
+			// fx: 'fade',
+			// random: 1,
+			// timeout: 2000,
+			// speed: 3000
+		// });
+	// }
 });

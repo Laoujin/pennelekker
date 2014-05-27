@@ -4,9 +4,9 @@
 <html>
 <head>
 <title>Feestzaal De Pennelekker</title>
-<script language="javascript" type="text/javascript" src="include/jquery.js"></script>
-<script language="javascript" type="text/javascript" src="include/script.js"></script>
+<script language="javascript" type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
 <script language="javascript" type="text/javascript" src="include/jquery.cycle.js"></script>
+<script language="javascript" type="text/javascript" src="include/script.js"></script>
 <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -54,8 +54,12 @@
 									$directory = 'images/'.$selected.'/';
 									if (is_dir('images/'.$selected))
 									{
-										echo "<td width=520 valign=top id=loopImageCell>";
-										echo "<div id=loopImage style='display: none'>";
+										?>
+										<td width=520 valign=top id=loopImageCell>
+										<div id="loopImage" class="cycle-slideshow" data-cycle-speed="3000" data-cycle-random="1" data-cycle-timeout="2000" data-cycle-fx="fade">
+										<div class="cycle-prev"></div>
+										<div class="cycle-next"></div>
+										<?php
 										$images = glob($directory . "*.[Jj][Pp][Gg]");
 										foreach($images as $image)
 										{
