@@ -22,11 +22,15 @@ Enkele voorbeelden van wat wij qua feestmenu's in <i>De Pennelekker</i> kunnen s
 &nbsp;<a href="downloads/afhalingen2014.pdf" class=popupLink>afhalingen</a>
 
 <br><br><br>
-<b>Degustatiemenu's</b><br><br>
-Op zondagmiddag 8 juni serveren we een vaderdagmenu. <br> 
+<b>Afhalingen eindejaarsperiode 2014</b><br><br>
+Bekijk <a href="downloads/afhalingen_kerstperiode_2014.pdf" class=popupLink>hier</a> de afhaallijsten.<br>
 
-<a href="downloads/vaderdagmenu_2014.pdf"><img src='images/pdf.gif'></a>
-&nbsp;<a href="downloads/vaderdagmenu_2014.pdf" class=popupLink>Bekijk</a> wat de pot schaft. <br><br>
+Bestelt u een voorgerecht, soep en een hoofdgerecht?<br>
+Dan krijgt u van ons het dessert gratis.<br><br>
+Er zijn vier afhaalmomenten:
+24 en 25 december, 31 december en 1 januari.<br><br>
+We vragen u om ten laatste 5 dagen vooraf te bestellen.
+
 
 <?php
 	include_once 'include/pagefooter.php';
