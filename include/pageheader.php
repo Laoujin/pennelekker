@@ -6,7 +6,7 @@
 <title>Feestzaal De Pennelekker</title>
 <link href="style.css" rel="stylesheet" type="text/css" />
 <script language="javascript" type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
-<script language="javascript" type="text/javascript" src="include/jquery.cycle.js"></script>
+<script src="//unslider.com/unslider.min.js"></script>
 <script language="javascript" type="text/javascript" src="include/script.js"></script>
 </head>
 <body>
@@ -14,7 +14,7 @@
 <div id=main>
 <table width='100%' cellpadding=0 cellspacing=0 border=0 id=subMain>
 	<tr height=40>
-		<td valign=top><img src=images/depennelekker2.png border=0 width=220 height=35 title=""></td>
+		<td valign=top><img src='images/depennelekker2.png' border=0 width=220 height=35 title=""></td>
 	</tr>
 	<tr height=380>
 		<td>
@@ -56,22 +56,20 @@
 									{
 										?>
 										<td width=520 valign=top id=loopImageCell>
-										<div id="loopImage" class="cycle-slideshow" 
-											data-cycle-speed="3000" 
-											data-cycle-random="1" 
-											data-cycle-timeout="2000" 
-											data-cycle-fx="fade"
-											data-cycle-pause-on-hover="true">
-										<div class="cycle-prev"></div>
-										<div class="cycle-next"></div>
+										<div class="banner"><ul>
+
 										<?php
 										$images = glob($directory . "*.[Jj][Pp][Gg]");
 										foreach($images as $image)
 										{
-											echo "<img src='".$image."' border=0 width=520 height=347 title=''>";
+											echo "<li><img src='".$image."' border=0 width=520 height=347 title=''></li>";
 										}
-										echo "</div>";
-										echo "</td>";
+										?>
+										</ul>
+
+										</div>
+										</td>
+										<?php
 									}
 								}
 								else
